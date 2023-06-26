@@ -24,3 +24,34 @@
 - Figma
 - 3D Maya
 - Zbrush
+
+## Work experience:
+
+- 2020-2022 Self-employmed
+- 1995-2018 NaftoGaz Ukraine
+
+## Soft Skills:
+
+- Responsible and organized
+- Attentive to details
+- Team player
+- Open to new knowledge
+
+## Code Example:
+
+```
+function getSum( a,b )
+{
+   if (a === b) {
+     return a
+   } else if ( a < b ) {
+     return a + getSum(a+1, b)
+   } else {
+     return a + getSum(a-1, b)
+   }
+  }
+```
+
+## Language:
+
+- English-B1
