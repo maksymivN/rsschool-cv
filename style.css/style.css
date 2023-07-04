@@ -97,13 +97,32 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+.main__title {
+  color: rgb(15, 15, 15);
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
+.section__general {
+  display: flex;
+  justify-content: space-around;
+  line-height: 2;
+}
+.section__general:not(:last-child){
+  margin-bottom: 100px;
+}
+
+/* --Header-- */
 
 .header {
-  background-color: rgba(127, 255, 212, 1);
+  background-color: rgba(168, 241, 78, 0.8);
+  margin-bottom: 100px;
 }
 .nav-list {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  color: rgb(15, 15, 15);
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -112,5 +131,54 @@ body {
   padding: 0 20px;
   line-height: 50px;
 }
+a:hover {
+  color: rgb(45, 45, 242);
+}
 
+/* --Main-- */
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  margin-bottom: 100px;
+}
+.photo-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.title {
+  padding-left: 25%;
+}
+.title-profil {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2;
+  letter-spacing: 5px;
+  
+}
+.subtitle-profil {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-left: 15%;
+}
+
+/* --contact-- */
+
+.contact {
+  padding-left: 45%;
+  margin-bottom: 100px;
+}
+.contact-list {
+  padding-left: 20px;
+}
+.contact-link {
+  line-height: 2;
+  font-size: 1.12; /* 18/16 */
+  padding-left: 8px;
+}
+
+/* --education-work-- */
 

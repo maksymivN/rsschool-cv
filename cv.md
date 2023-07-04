@@ -4,8 +4,7 @@
 
 ## Contact:
 
-- Phone: +38(099) 411 24 65
-- E-mail: [nataliya.maksymiv2017@gmail.com](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox)
+- E-mail: [n.maksymiv01@gmail.com](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox)
 - GitHub: [maksymivN](https://github.com/maksymivN?tab=repositories)
 
 ## Education:
