@@ -106,7 +106,7 @@ body {
 }
 .section__general {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   line-height: 2;
 }
 .section__general:not(:last-child){
@@ -172,7 +172,6 @@ a:hover {
   margin-bottom: 100px;
 }
 .contact-list {
-  padding-left: 20px;
 }
 .contact-link {
   line-height: 2;
@@ -182,3 +181,26 @@ a:hover {
 
 /* --education-work-- */
 
+.education-work {}
+.work-experience {
+  margin-left: 25%;
+}
+
+/* --skills-- */
+
+.soft-skills {
+  margin-left: 48%;
+}
+
+/* --code-lang-- */
+
+.code {
+}
+.pre {
+
+}
+.code-section {
+}
+.language {
+  margin-left: 42%;
+}

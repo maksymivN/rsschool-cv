@@ -14,10 +14,10 @@
         <ul class="nav-list">
           <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#technical skills" class="nav-link">Technical Skills</a></li>
-          <li class="nav-item"><a href="#work experience" class="nav-link">Work Experience</a></li>
-          <li class="nav-item"><a href="#soft skills" class="nav-link">Soft Skills</a></li>
-          <li class="nav-item"><a href="#code example" class="nav-link">Code Example</a></li>
+          <li class="nav-item"><a href="#technical-skills" class="nav-link">Technical Skills</a></li>
+          <li class="nav-item"><a href="#work-experience" class="nav-link">Work Experience</a></li>
+          <li class="nav-item"><a href="#soft-skills" class="nav-link">Soft Skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
           <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
         </ul>
       </nav>
@@ -57,7 +57,7 @@
             </ul>
           </nav>
         </section>
-        <section class="work-experience" id="work experience">
+        <section class="work-experience" id="work-experience">
           <h2 class="main__title work-title">work experience:</h2>
           <nav class="work-nav">
             <ul class="work-list">
@@ -68,7 +68,7 @@
         </section>
       </div>
       <div class="section__general skills">
-        <section class="technical-skills" id="technical skills">
+        <section class="technical-skills" id="technical-skills">
           <h2 class="main__title">technical skills:</h2>
           <nav class="tech-skill-nav">
             <ul class="tech-skill-list">
@@ -82,7 +82,7 @@
             </ul>
           </nav>
         </section>
-        <section class="soft-skills" id="soft skills">
+        <section class="soft-skills" id="soft-skills">
           <h2 class="main__title">soft skills:</h2>
           <nav class="soft-skill-nav">
             <ul class="soft-skill-list">
@@ -95,22 +95,24 @@
         </section>
       </div>
       <div class="section__general code-lang">
-        <section class="code-example" id="code example">
+        <section class="code-example" id="code-example">
           <h2 class="main__title">code example:</h2>
-          <pre class="pre">
-            <code>
-              function getSum( a,b )
-              {
-                 if (a === b) {
-                   return a
-                 } else if ( a < b ) {
-                   return a + getSum(a+1, b)
-                 } else {
-                   return a + getSum(a-1, b)
-                 }
+          <div class="code">
+            <pre class="pre">
+              <code>
+                function getSum( a,b )
+                {
+                  if (a === b) {
+                    return a
+                  } else if ( a == b ) {
+                    return a + getSum(a+1, b)
+                  } else {
+                    return a + getSum(a-1, b)
+                  }
                 }
-            </code>
-          </pre>
+              </code>
+            </pre>
+          </div>
         </section>
         <section class="language" id="language">
           <h2 class="main__title">language:</h2>
@@ -118,7 +120,7 @@
         </section>
       </div>
     </main>
-    <footer class="footer">footer</footer>
+    <footer class="footer"></footer>
   </div>
   <script src="index.js"></script>
 </body>
