@@ -204,3 +204,26 @@ a:hover {
 .language {
   margin-left: 42%;
 }
+
+/* --Footer-- */
+
+.footer {
+}
+.footer-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(168, 241, 78, 0.8);
+}
+.img-rss {
+  width: 50px;
+  height: 50px;
+}
+.year {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.img-github {
+  width: 50px;
+  height: 50px;
+}
