@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css/style.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>CV</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#technical-skills" class="nav-link">Technical Skills</a></li>
+          <li class="nav-item"><a href="#work-experience" class="nav-link">Work Experience</a></li>
+          <li class="nav-item"><a href="#soft-skills" class="nav-link">Soft Skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+          <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="profile">
+        <div class="photo">
+          <img class="photo-profile" src="images/avatar.webp" alt="avatar">
+        </div>
+        <div class="title">
+          <h1 class="title-profil">Maksymiv Nataliia</h1>
+          <div class="subtitle-profil">Junior Frontend Developer</div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2 class="main__title contact-title">Contact:</h2>
+        <ul class="contact-list">
+          <li class="contact-item">
+            Email:
+            <a href="mailto:n.maksymiv01@gmail.com" class="contact-link">n.maksymiv01@gmail.com</a>
+          </li>
+          <li class="contact-item">
+            Github:
+            <a href="https://github.com/maksymivN?tab=repositories" class="contact-link">maksymivN</a>
+          </li>
+        </ul>
+      </section>
+      <div class="section__general education-work">
+        <section class="education" id="education">
+          <h2 class="main__title education-title">Education:</h2>
+          <nav class="education-nav">
+            <ul class="education-list">
+              <li class="education-item">06-09.2023 JS/FE Pre-school</li>
+              <li class="education-item">05.2023 ITlogia</li>
+              <li class="education-item">2018-2020 3D Maya Modeling and Animation</li>
+              <li class="education-item">1985-1990 Ivano Frankivsk National Technical University of Oil and Gas</li>
+            </ul>
+          </nav>
+        </section>
+        <section class="work-experience" id="work-experience">
+          <h2 class="main__title work-title">work experience:</h2>
+          <nav class="work-nav">
+            <ul class="work-list">
+              <li class="work-item">2020-2022 Self-employmed</li>
+              <li class="work-item">1995-2018 NaftoGaz Ukraine</li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+      <div class="section__general skills">
+        <section class="technical-skills" id="technical-skills">
+          <h2 class="main__title">technical skills:</h2>
+          <nav class="tech-skill-nav">
+            <ul class="tech-skill-list">
+              <li class="tech-skill-item">HTML</li>
+              <li class="tech-skill-item">CSS</li>
+              <li class="tech-skill-item">JS</li>
+              <li class="tech-skill-item">Adobe Photoshop</li>
+              <li class="tech-skill-item">Figma</li>
+              <li class="tech-skill-item">3D Maya</li>
+              <li class="tech-skill-item">Zbrush</li>
+            </ul>
+          </nav>
+        </section>
+        <section class="soft-skills" id="soft-skills">
+          <h2 class="main__title">soft skills:</h2>
+          <nav class="soft-skill-nav">
+            <ul class="soft-skill-list">
+              <li class="soft-skill-item">Responsible and organized</li>
+              <li class="soft-skill-item">Attentive to details</li>
+              <li class="soft-skill-item">Team player</li>
+              <li class="soft-skill-item">Open to new knowledge</li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+      <div class="section__general code-lang">
+        <section class="code-example" id="code-example">
+          <h2 class="main__title code-title">code example:</h2>
+          <div class="code">
+            <pre class="pre">
+              <code class="code-pre">
+                function getSum( a,b )
+                {
+                  if (a === b) {
+                    return a
+                  } else if ( a == b ) {
+                    return a + getSum(a+1, b)
+                  } else {
+                    return a + getSum(a-1, b)
+                  }
+                }
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section class="language" id="language">
+          <h2 class="main__title">language:</h2>
+          <p class="lang-english">English-B1</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-conteiner">
+        <a href="https://rs.school/" class="logo-rss">
+          <img src="https://rs.school/images/rs_school_js.svg" class="img-rss" alt="logo-rss">
+        </a>
+        <p class="year">2023</p>
+        <a href="https://github.com/maksymivN" class="logo-github">
+          <img src="images/logo_github.svg" class="img-github" alt="logo-github">
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
