@@ -126,6 +126,7 @@ body {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  min-height: 100px;
 }
 .nav-link {
   padding: 0 20px;
@@ -194,12 +195,13 @@ a:hover {
 
 /* --code-lang-- */
 
+.code-example {
+}
+.code-title {
+}
 .code {
 }
-.pre {
-
-}
-.code-section {
+.code-pre {
 }
 .language {
   margin-left: 42%;
@@ -214,6 +216,7 @@ a:hover {
   align-items: center;
   justify-content: space-around;
   background-color: rgba(168, 241, 78, 0.8);
+  min-height: 100px;
 }
 .img-rss {
   width: 50px;
